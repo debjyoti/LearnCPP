@@ -1,6 +1,6 @@
 #include <iostream>
 
-template <class T>
+template <typename T> //can use class instead of typename
 void swap(T &a, T &b) {
     T temp;
     temp = b;
